@@ -23,5 +23,5 @@ const Router =new VueRouter({
 new Vue({
   router:Router,
   store,
-  render: h => h(App)
+  render: h => h(App)//渲染app模板
 }).$mount("#app");
